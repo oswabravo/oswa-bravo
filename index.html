@@ -13,13 +13,13 @@
     theme: {
       extend: {
         colors: {
-          espresso: '#2B2118',
-          ink: '#221A13',
-          sand: '#EFE4CE',
-          bone: '#F8F2E4',
-          ochre: '#C17817',
-          moss: '#5B6B44',
-          rust: '#A6472A',
+          espresso: '#33393A',
+          ink: '#1A1F1D',
+          sand: '#E4E7E1',
+          bone: '#F6F7F3',
+          ochre: '#3E7C61',
+          moss: '#56625B',
+          rust: '#1F5C42',
         },
         fontFamily: {
           display: ['Fraunces', 'serif'],
@@ -32,7 +32,7 @@
 </script>
 <style>
   html { scroll-behavior: smooth; }
-  body { background-color: #F8F2E4; }
+  body { background-color: #F6F7F3; }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
@@ -45,10 +45,10 @@
     to { transform: rotate(360deg); }
   }
   .paper-texture {
-    background-image: radial-gradient(#2B2118 0.5px, transparent 0.5px);
+    background-image: radial-gradient(#1A1F1D 0.5px, transparent 0.5px);
     background-size: 14px 14px;
   }
-  ::selection { background-color: #C17817; color: #F8F2E4; }
+  ::selection { background-color: #1F5C42; color: #F6F7F3; }
   a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
     outline: 2px solid #A6472A;
     outline-offset: 3px;
@@ -105,11 +105,6 @@
 <section id="inicio" class="relative pt-32 pb-24 md:pt-44 md:pb-32 px-5 md:px-8 overflow-hidden">
   <div class="max-w-6xl mx-auto relative">
 
-    <div class="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.2em] text-moss mb-6">
-      <span class="w-8 h-px bg-moss"></span>
-      Archivo personal — vol. 01
-    </div>
-
     <div class="grid md:grid-cols-[1fr_auto] gap-10 items-end">
       <h1 class="font-display text-[13vw] leading-[0.92] md:text-[6.2rem] font-semibold text-ink tracking-tight">
         Ideas, notas
@@ -135,7 +130,7 @@
 
     <div class="grid md:grid-cols-[2fr_1fr] gap-8 md:gap-16 mt-10 md:mt-14 items-start">
       <p class="font-body text-lg md:text-xl text-espresso/80 max-w-xl leading-relaxed">
-        Este es mi cuaderno público sobre derecho, finanzas y geopolítica: publico artículos, documentos y videos a medida que los voy terminando. Sin calendario editorial, sin relleno — solo lo que vale la pena guardar.
+        Este es mi espacio personal donde comparto mis análisis y opiniones sobre derecho, finanzas y geopolítica: artículos, documentos y videos a medida que los voy terminando, sin calendario editorial ni relleno, solo lo que vale la pena guardar.
       </p>
       <div class="flex flex-col sm:flex-row md:flex-col gap-3">
         <a href="#articulos" class="inline-flex items-center justify-center gap-2 bg-rust text-bone font-mono text-sm uppercase tracking-wider px-6 py-3.5 rounded-full hover:bg-ink transition-all duration-200 hover:-translate-y-0.5">
@@ -157,7 +152,7 @@
         Lo que <span class="italic text-ochre">publico</span>
       </h2>
       <p class="font-mono text-xs uppercase tracking-[0.2em] text-bone/50 max-w-xs">
-        Tres formatos, un mismo cuaderno de trabajo.
+        Tres formatos, un mismo espacio de trabajo.
       </p>
     </div>
 
@@ -172,7 +167,7 @@
             Análisis sobre derecho, finanzas y geopolítica: textos largos que prefiero desarrollar con calma antes de compartirlos, conectando marcos legales con dinámicas económicas y de poder.
           </p>
         </div>
-        <a href="#" class="mt-8 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-rust group-hover:gap-3 transition-all duration-200">
+        <a href="https://wonderful-apogee-3d8.notion.site/LA-PENA-EN-VENEZUELA-3c7e12028ee780e7a012fb9f19575cd1" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-rust group-hover:gap-3 transition-all duration-200">
           Leer artículos <span aria-hidden="true">→</span>
         </a>
       </article>
@@ -304,7 +299,7 @@
 
     <div class="flex flex-col-reverse md:flex-row items-start md:items-center justify-between gap-4 pt-8 font-mono text-xs text-bone/45">
       <p>© 2026 Oswa Bravo. Todos los derechos reservados.</p>
-      <p>Diseñado como cuaderno de trabajo — artículos, documentos y videos.</p>
+      <p>Análisis y opiniones sobre derecho, finanzas y geopolítica.</p>
     </div>
   </div>
 </footer>
